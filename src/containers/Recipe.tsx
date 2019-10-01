@@ -30,6 +30,14 @@ const Recipe = [
       "1 tbsp vegetable oil\n\n3 garlic cloves, chopped\n\n3 x 400g cans black beans, drained and rinsed\n\n3 tbsp cider vinegar\n\n1 ½ tbsp honey\n\n1 ½ tbsp smoked paprika\n\n1 ½ tbsp ground cumin\n\n1 small garlic clove\n\n2 tbsp roughly chopped coriander\n\n1 green chilli, sliced\n\n2 avocados, halved and stoned\n\njuice 1 lime\n\n110g pack pomegranate seeds\n\n1 green chilli, finely diced\n\n1 small white onion, finely diced\n\nsmall handful fresh coriander, chopped",
     img:
       "http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/05/spicy-black-bean-tacos.jpg?itok=RTBXRL7L"
+  },
+  {
+    id: 4,
+    title: "Causa Rellena",
+    ingredients:
+      "1 kg potate yellow peruvian\n\nchicken breast\n\nonion\n\nMayonnaise\n\nYellow pepper\n\nAvocado\n\nsalt and pepper",
+    img:
+      "https://images-gmi-pmc.edge-generalmills.com/1fdf2172-1313-49e0-b964-9c2cbb484672.jpg"
   }
 ];
 
