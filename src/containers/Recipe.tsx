@@ -73,6 +73,14 @@ const Recipe = [
     title: "Cheesesteak hot dogs",
     ingredients: "1 large rib-eye steak, 3 tbsp olive oil, 2 garlic cloves, crushed but whole, 2 green peppers, sliced, 4 hot dog buns, 60g smoked cheddar, sliced, yellow mustard (we used French’s), to serve, 2 tbsp crispy onions",
     img: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/07/hot_dogs_steak.jpg?itok=wDwm7Tsf"
+  },
+  {
+        id: 11,
+    title: "Causa Rellena",
+    ingredients:
+      "1 kg potate yellow peruvian\n\nchicken breast\n\nonion\n\nMayonnaise\n\nYellow pepper\n\nAvocado\n\nsalt and pepper",
+    img:
+      "https://images-gmi-pmc.edge-generalmills.com/1fdf2172-1313-49e0-b964-9c2cbb484672.jpg"
   }
 ];
 
