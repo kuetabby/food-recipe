@@ -89,14 +89,45 @@ const Recipe = [
       "2 cups rice flour \n\n1/2 cup granulated sugar\n\n1 1/2 cups coconut milk \n\n3/4 cup water \n\n1 tablespoon dry active yeast \n\n1 1/2 teaspoons warm water \n\n1 teaspoon sugar \n\n3/4 cup cooked basmati rice \n\n1 1/2 cups coconut milk \n\n fresh eggs ",
     img:
       "http://i0.wp.com/www.foodrepublic.com/wp-content/uploads/2015/08/egghopper.jpg?fit=700%2C467"
-  }, {
+  }, 
+  {
         id: 13,
     title: "Beef pho",
     ingredients:
       "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
     img:
       "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/07/beef-pho.jpg"
-  }
+  },
+  {
+    id: 14,
+    title: "The Hash Slinging Slesher",
+    ingredients: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    img: "https://ih0.redbubble.net/image.694542997.9763/mp,840x830,matte,f8f8f8,t-pad,750x1000,f8f8f8.u2.jpg"
+  },
+  {
+    id: 15,
+    title: "Flower",
+    ingredients: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-wide-mv-new$"
+  },
+  {
+    id: 16,
+    title: "Planet",
+    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
+  {
+    id: 17,
+    title: "Obladioblalalal",
+    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
+  {
+    id: 18,
+    title: "Sandy",
+    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img: "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
 ];
 
 export default Recipe;

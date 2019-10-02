@@ -32,7 +32,7 @@ function App({
   isDisabled,
   onChangeVisible,
   onChangeState,
-  onCreate
+  onCreate,
 }: AddProps) {
   return (
     <>
