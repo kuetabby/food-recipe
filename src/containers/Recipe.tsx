@@ -141,6 +141,14 @@ const Recipe = [
     ingredients:
       "3/4 cup fresh blueberries , 3/4 cup fresh blackberries , 5.3 ounce package plain Greek yogurt , 1 cup vanilla soy milk , 1 whole banana",
     img: "https://chefsavvy.com/wp-content/uploads/20141219-DSC_07691.jpg"
+  },
+  {
+    id: 18,
+    title: "Double Berry Breakfast Parfaits",
+    ingredients:
+      "2 cups plain Greek yogurt , 1 ½ cups sliced strawberries , 1 pint fresh blueberries , Honey, optional , Cinnamon, optional",
+    img:
+      "https://foodfitnessfaithblog.files.wordpress.com/2013/07/dsc05698.jpg?w=640&h=413"
   }
 ];
 
