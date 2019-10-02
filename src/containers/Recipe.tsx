@@ -81,6 +81,14 @@ const Recipe = [
       "1 kg potate yellow peruvian\n\nchicken breast\n\nonion\n\nMayonnaise\n\nYellow pepper\n\nAvocado\n\nsalt and pepper",
     img:
       "https://images-gmi-pmc.edge-generalmills.com/1fdf2172-1313-49e0-b964-9c2cbb484672.jpg"
+  },
+  {
+    id: 12,
+    title: "Beef pho",
+    ingredients:
+      "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
+    img:
+      "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/07/beef-pho.jpg"
   }
 ];
 
