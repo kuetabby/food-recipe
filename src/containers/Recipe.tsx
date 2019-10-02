@@ -93,10 +93,17 @@ const Recipe = [
         id: 13,
     title: "Beef pho",
     ingredients:
-      "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
+      "1 10-ounce firm block tofu, water drained and excess water removed, 3 spring onions, very finely sliced, 3 garlic cloves, crushed, 1 small red chili, finely chopped, Handful cilantro, chopped, 1 tablespoon Egg Replacement, 4 tablespoons buckwheat flour, 2 tablespoons sesame oil, 1 tablespoon Sriracha sauc, 1 tablespoon coconut oil, for sauteeing.",
     img:
       "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/07/beef-pho.jpg"
-  }
+  }, {
+        id: 14,
+    title: "Vegan Sriracha Meatballs With Noodles",
+    ingredients:
+      "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
+    img:
+      "https://purewows3.imgix.net/images/articles/2018_02/Vegan-Sriracha-Meatballs-with-Noodles-and-Grilled-Vegetables-recipe.jpg?auto=format,compress&cs=strip"
+  },
 ];
 
 export default Recipe;
