@@ -88,7 +88,7 @@ function App() {
     <div style={{ height: "100vh", margin: "1em" }}>
       <NavWrapper>
         <NavBar>
-          <h1>Recipe Box</h1>
+          <h1>Box Recipe</h1>
           <Add
             title={title}
             ingredients={ingredients}
