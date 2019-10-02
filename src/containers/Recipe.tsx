@@ -134,6 +134,13 @@ const Recipe = [
       "1 Slice 100% Whole Wheat Bread (I used one that was 50 cal. per slice) , 1 Tbsp Sunbutter , 1/2 Medium Banana, Sliced , 1/2 Tsp. Chia Seeds",
     img:
       "https://images.squarespace-cdn.com/content/v1/5113fcede4b099bd04eebc8d/1428419347862-I04VJJHX2MP0AE5JDXAY/ke17ZwdGBToddI8pDm48kBUDAxm-FLUF-OJf9moK1kV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT_TXfTUFcrrnRvtinoH4JYxq5g0UB9t65pVePltZrd1IKYY7Qu0iTZQJ-GJ4dsqLQ/image-asset.jpeg?format=750w"
+  },
+  {
+    id: 17,
+    title: "Healthy Berry Yogurt Smoothie",
+    ingredients:
+      "3/4 cup fresh blueberries , 3/4 cup fresh blackberries , 5.3 ounce package plain Greek yogurt , 1 cup vanilla soy milk , 1 whole banana",
+    img: "https://chefsavvy.com/wp-content/uploads/20141219-DSC_07691.jpg"
   }
 ];
 
