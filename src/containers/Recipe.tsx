@@ -116,6 +116,12 @@ const Recipe = [
     ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
     img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
   },
+  {
+    id: 17,
+    title: "Obladioblalalal",
+    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
 ];
 
 export default Recipe;
