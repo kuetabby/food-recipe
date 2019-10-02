@@ -89,6 +89,13 @@ const Recipe = [
       "2 cups rice flour \n\n1/2 cup granulated sugar\n\n1 1/2 cups coconut milk \n\n3/4 cup water \n\n1 tablespoon dry active yeast \n\n1 1/2 teaspoons warm water \n\n1 teaspoon sugar \n\n3/4 cup cooked basmati rice \n\n1 1/2 cups coconut milk \n\n fresh eggs ",
     img:
       "http://i0.wp.com/www.foodrepublic.com/wp-content/uploads/2015/08/egghopper.jpg?fit=700%2C467"
+  }, {
+        id: 13,
+    title: "Beef pho",
+    ingredients:
+      "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
+    img:
+      "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/07/beef-pho.jpg"
   }
 ];
 
