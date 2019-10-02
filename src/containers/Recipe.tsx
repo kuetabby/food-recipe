@@ -122,6 +122,12 @@ const Recipe = [
     ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
     img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
   },
+  {
+    id: 18,
+    title: "Sandy",
+    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img: "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
 ];
 
 export default Recipe;
