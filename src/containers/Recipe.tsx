@@ -81,6 +81,14 @@ const Recipe = [
       "1 kg potate yellow peruvian\n\nchicken breast\n\nonion\n\nMayonnaise\n\nYellow pepper\n\nAvocado\n\nsalt and pepper",
     img:
       "https://images-gmi-pmc.edge-generalmills.com/1fdf2172-1313-49e0-b964-9c2cbb484672.jpg"
+  },
+  {
+        id: 12,
+    title: "Hoppers",
+    ingredients:
+      "2 cups rice flour \n\n1/2 cup granulated sugar\n\n1 1/2 cups coconut milk \n\n3/4 cup water \n\n1 tablespoon dry active yeast \n\n1 1/2 teaspoons warm water \n\n1 teaspoon sugar \n\n3/4 cup cooked basmati rice \n\n1 1/2 cups coconut milk \n\n fresh eggs ",
+    img:
+      "http://i0.wp.com/www.foodrepublic.com/wp-content/uploads/2015/08/egghopper.jpg?fit=700%2C467"
   }
 ];
 
