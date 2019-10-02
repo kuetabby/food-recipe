@@ -126,6 +126,14 @@ const Recipe = [
       "2 eggs (fried sunny side up) , 2 slices of multi-grain or whole grain bread (toasted) , 1 small avocado , 1 teaspoon lime juice , sea salt + black pepper (to taste) , parsley (optional for topping) Instructions",
     img:
       "https://simplegreenmoms.com/wp-content/uploads/2017/03/Skinny-Fried-Egg-and-Avo-Toast.jpg.webp"
+  },
+  {
+    id: 16,
+    title: "Sun Butter, Banana & Chia Seed Toast",
+    ingredients:
+      "1 Slice 100% Whole Wheat Bread (I used one that was 50 cal. per slice) , 1 Tbsp Sunbutter , 1/2 Medium Banana, Sliced , 1/2 Tsp. Chia Seeds",
+    img:
+      "https://images.squarespace-cdn.com/content/v1/5113fcede4b099bd04eebc8d/1428419347862-I04VJJHX2MP0AE5JDXAY/ke17ZwdGBToddI8pDm48kBUDAxm-FLUF-OJf9moK1kV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT_TXfTUFcrrnRvtinoH4JYxq5g0UB9t65pVePltZrd1IKYY7Qu0iTZQJ-GJ4dsqLQ/image-asset.jpeg?format=750w"
   }
 ];
 
