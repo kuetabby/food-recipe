@@ -89,6 +89,9 @@ function App() {
       <NavWrapper>
         <NavBar>
           <h1>Recipe Box</h1>
+          <h2>Box Recipe</h2>
+          <h1>Recipe Box</h1>
+          <h2>Box Recipe</h2>
           <Add
             title={title}
             ingredients={ingredients}
