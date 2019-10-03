@@ -174,6 +174,12 @@ const Recipe = [
     ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
     img: "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
   },
+  {
+    id: 23,
+    title: "Caprese Sandwich with Parsley Pesto",
+    ingredients : "1 personal loaf French bread (gluten free if you're gluten free) , 1 medium tomato, sliced , 3 slices fresh ball mozzarella cheese, halved , 3 tablespoons Parsley Pesto",
+    img: "https://img.buzzfeed.com/buzzfeed-static/static/2017-10/10/13/asset/buzzfeed-prod-fastlane-03/sub-buzz-24281-1507655681-1.jpg?output-quality=auto&output-format=auto"
+  }
 ];
 
 export default Recipe;
