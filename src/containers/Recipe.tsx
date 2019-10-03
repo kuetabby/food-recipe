@@ -196,6 +196,14 @@ const Recipe = [
       "Pad Thai Sauce, 3 tablespoons tamarind juice (paste) concentrate ,¼ cup water, ¼ cup palm sugar ,2 Tbl fish sauce, 2 cloves garlic, minced, Pad Thai Stir-Fry Ingredients, 8 ounces dried rice stick noodles, 5 tablespoons vegetable oil, divided, ½ smallish-medium red onion, thinly sliced, 2 cloves garlic, minced, ½ lb protein (thinly sliced chicken, beef, pork, shrimp, or cubed tofu), 1 egg, 1½ cups mung bean sprouts, divided in half, 1 cup carrots, julienned (match sticks), divided in half, 4 green onions (scallions) cut diagonal in ½ inch segments, ¼ cup cilantro, coarsely chopped, ½ cup toasted peanuts, chopped, Lime wedges",
     img:
       "https://savorysweetlife.com/wp-content/uploads/2018/04/pad-thai-sauce/pad-thai-2.jpg"
+  },
+  {
+    id:26,
+    title: "Mooncake recipe",
+    ingredients:
+      "60g golden syrup, 1/4 tsp lye water, 24g vegetable oil, 100g cake flour, 10 salted egg yolk, 220g store-bought lotus paste, Egg wash to brush the mooncake",
+    img:
+      "https://tasteasianfood.com/wp-content/uploads/2019/07/Mooncake-recipe.jpg"
   }
 ];
 
