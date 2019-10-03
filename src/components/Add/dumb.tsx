@@ -23,7 +23,8 @@ export const Button: React.FC<ButtonProps> = ({
     AreaProps={AreaProps}
     onChange={onChange}
     type={type}
-
+    data={data}
+    onCreate={onCreate}
     
   >
     Add Recipe
