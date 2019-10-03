@@ -21,6 +21,10 @@ export const Button: React.FC<ButtonProps> = ({
     onClick={onClick}
     disabled={disabled}
     AreaProps={AreaProps}
+    onChange={onChange}
+    type={type}
+
+    
   >
     Add Recipe
   </button>
