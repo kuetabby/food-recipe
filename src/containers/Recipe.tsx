@@ -251,7 +251,15 @@ const Recipe = [
     ingredients:
       "1.2 kg chicken , 2 stalks fresh lemongrass, bruised, 7 shallots, chopped,2 ½ tablespoons finely minced ginger,3 tsp. ground turmeric,2 tsp. ground coriander,2 tbsp. vegetable oil,1 tbsp. fresh lime juice (optional) ",
     img: "http://www.indofoodstore.com/images/soto.jpg"
-  }
+  },
+    {
+    id:32,
+    title: "Mooncake recipe",
+    ingredients:
+      "60g golden syrup, 1/4 tsp lye water, 24g vegetable oil, 100g cake flour, 10 salted egg yolk, 220g store-bought lotus paste, Egg wash to brush the mooncake",
+    img:
+      "https://tasteasianfood.com/wp-content/uploads/2019/07/Mooncake-recipe.jpg"
+  },
 ];
 
 export default Recipe;
