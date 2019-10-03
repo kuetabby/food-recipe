@@ -20,7 +20,7 @@ export const Button: React.FC<ButtonProps> = ({
     id={id}
     onClick={onClick}
     disabled={disabled}
-    AreaProps={AreaProps}
+    aria-label={label}
   >
     Add Recipe
   </button>

@@ -107,7 +107,7 @@ const Recipe = [
     id: 13,
     title: "Beef pho",
     ingredients:
-      "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
+      "1 10-ounce firm block tofu, water drained and excess water removed, 3 spring onions, very finely sliced, 3 garlic cloves, crushed, 1 small red chili, finely chopped, Handful cilantro, chopped, 1 tablespoon Egg Replacement, 4 tablespoons buckwheat flour, 2 tablespoons sesame oil, 1 tablespoon Sriracha sauc, 1 tablespoon coconut oil, for sauteeing.",
     img:
       "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/07/beef-pho.jpg"
   },
@@ -215,14 +215,38 @@ const Recipe = [
       "https://peasandcrayons.com/wp-content/uploads/2017/02/easy-creamy-vegetarian-lentil-tortilla-soup-recipe-peasandcrayons-2x-0112.jpg"
   },
   {
-    id: 27,
+        id: 27,
+    title: "Vegan Sriracha Meatballs With Noodles",
+    ingredients:
+      "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
+    img:
+      "https://purewows3.imgix.net/images/articles/2018_02/Vegan-Sriracha-Meatballs-with-Noodles-and-Grilled-Vegetables-recipe.jpg?auto=format,compress&cs=strip"
+  },
+  {
+    id:28,
+    title: "the Ultimate Breakfast Sandwich",
+    ingredients:
+      "Croissant, Bacon, Egg (Soft scramble because it changed your life too, right?), Garlic Butter Tomato Sauce, Guacamole",
+    img:
+      "https://pinchofyum.com/wp-content/uploads/Breakfast-Sandwich-1.jpg"
+  },
+  {
+    id: 29,
+    title: "Pad Thai Sauce – Authentic Pad Thai Recipe",
+    ingredients:
+      "Pad Thai Sauce, 3 tablespoons tamarind juice (paste) concentrate ,¼ cup water, ¼ cup palm sugar ,2 Tbl fish sauce, 2 cloves garlic, minced, Pad Thai Stir-Fry Ingredients, 8 ounces dried rice stick noodles, 5 tablespoons vegetable oil, divided, ½ smallish-medium red onion, thinly sliced, 2 cloves garlic, minced, ½ lb protein (thinly sliced chicken, beef, pork, shrimp, or cubed tofu), 1 egg, 1½ cups mung bean sprouts, divided in half, 1 cup carrots, julienned (match sticks), divided in half, 4 green onions (scallions) cut diagonal in ½ inch segments, ¼ cup cilantro, coarsely chopped, ½ cup toasted peanuts, chopped, Lime wedges",
+    img:
+      "https://savorysweetlife.com/wp-content/uploads/2018/04/pad-thai-sauce/pad-thai-2.jpg"
+  },
+  {
+    id: 30,
     title: "Satay",
     ingredients:
       "8-14 skinless chicken thighs, cut into thin strips , 10 (6 inch) wooden skewers, or as needed, soaked in water for 30 minutes , 3 tbsp. fish sauce , 2 stalks of fresh lemongrass, sliced , 1/4 cup fresh lime juice for more flavor ,2 shallots OR 1 small onion, sliced (optional),2 Tbsp. agave nectar",
     img: "http://www.indofoodstore.com/images/satay4.jpg"
   },
   {
-    id: 28,
+    id: 31,
     title: "Soto Ayam",
     ingredients:
       "1.2 kg chicken , 2 stalks fresh lemongrass, bruised, 7 shallots, chopped,2 ½ tablespoons finely minced ginger,3 tsp. ground turmeric,2 tsp. ground coriander,2 tbsp. vegetable oil,1 tbsp. fresh lime juice (optional) ",
