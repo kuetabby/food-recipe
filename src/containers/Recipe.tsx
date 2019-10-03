@@ -205,6 +205,14 @@ const Recipe = [
       "10 ounces frozen chopped spinach, thawed and squeezed dry,8 ounces ricotta cheese,4 ounces mozzarella cheese, shredded,1 ounce Parmesan cheese, grated,1 tablespoon olive oil ,1 large egg, lightly beaten with 2 tablespoons water, plus 1 large egg yolk,1 teaspoon garlic powder,1 1/2 teaspoons minced fresh oregano,1/8 teaspoon red pepper flakes,1 teaspoon salt",
     img:
       "https://www.kitschencat.com/wp-content/uploads/2016/09/Spinach-Ricotta-Calzones-4.jpg"
+  },
+  {
+    id: 26,
+    title: "Lentil Tortilla Soup",
+    ingredients:
+      "1 cup diced onion , 1 tsp avocado oil (or olive oil) , 1 bell pepper diced , 1 jalapeno pepper diced ,  2.5 cups vegetable broth (or chicken broth if needed) , 15 oz canned tomato sauce or crushed tomatoes",
+    img:
+      "https://peasandcrayons.com/wp-content/uploads/2017/02/easy-creamy-vegetarian-lentil-tortilla-soup-recipe-peasandcrayons-2x-0112.jpg"
   }
 ];
 
