@@ -212,6 +212,12 @@ const Recipe = [
       "3 pounds bone-in, skin-on chicken thighs, EVOO cooking spray, Kosher salt and black pepper",
     img:
       "https://www.spendwithpennies.com/wp-content/uploads/2019/02/Baked-Chicken-Thighs-SpendWithPennies-26.jpg"
+  },
+  {
+    id: 28,
+    title: "Gado-gado",
+    ingredients: "2 eggs, boiled and halved, 1 Chinese leaf cabbage, finely sliced, 8 cherry tomatoes, quartered, 8 radishes, quartered, 1/2 cucumber, sliced, prawn crackers, to serve (optional), pinch chilli flakes",
+    img: "https://realfood.tesco.com/media/images/Gado-gado-1400x919-mini-729b1fdf-e7ae-4ba0-bcbb-952277ba0e6e-0-1400x919.jpg"
   }
 ];
 
