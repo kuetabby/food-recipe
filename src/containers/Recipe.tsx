@@ -245,6 +245,13 @@ const Recipe = [
       "8-14 skinless chicken thighs, cut into thin strips , 10 (6 inch) wooden skewers, or as needed, soaked in water for 30 minutes , 3 tbsp. fish sauce , 2 stalks of fresh lemongrass, sliced , 1/4 cup fresh lime juice for more flavor ,2 shallots OR 1 small onion, sliced (optional),2 Tbsp. agave nectar",
     img: "http://www.indofoodstore.com/images/satay4.jpg"
   },
+  {
+    id: 31,
+    title: "Soto Ayam",
+    ingredients:
+      "1.2 kg chicken , 2 stalks fresh lemongrass, bruised, 7 shallots, chopped,2 ½ tablespoons finely minced ginger,3 tsp. ground turmeric,2 tsp. ground coriander,2 tbsp. vegetable oil,1 tbsp. fresh lime juice (optional) ",
+    img: "http://www.indofoodstore.com/images/soto.jpg"
+  }
 ];
 
 export default Recipe;
