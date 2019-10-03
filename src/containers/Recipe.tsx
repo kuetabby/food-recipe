@@ -104,7 +104,7 @@ const Recipe = [
       "http://i0.wp.com/www.foodrepublic.com/wp-content/uploads/2015/08/egghopper.jpg?fit=700%2C467"
   },
   {
-        id: 13,
+    id: 13,
     title: "Beef pho",
     ingredients:
       "1 10-ounce firm block tofu, water drained and excess water removed, 3 spring onions, very finely sliced, 3 garlic cloves, crushed, 1 small red chili, finely chopped, Handful cilantro, chopped, 1 tablespoon Egg Replacement, 4 tablespoons buckwheat flour, 2 tablespoons sesame oil, 1 tablespoon Sriracha sauc, 1 tablespoon coconut oil, for sauteeing.",
@@ -153,28 +153,69 @@ const Recipe = [
   {
     id: 19,
     title: "Flower",
-    ingredients: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-wide-mv-new$"
+    ingredients:
+      "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-wide-mv-new$"
   },
   {
     id: 20,
     title: "Planet",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+    ingredients:
+      "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
   },
   {
     id: 21,
     title: "Obladioblalalal",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+    ingredients:
+      "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
   },
   {
     id: 22,
     title: "Sandy",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
-  }, {
-        id: 23,
+    ingredients:
+      "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
+  {
+    id: 23,
+    title: "Caprese Sandwich with Parsley Pesto",
+    ingredients:
+      "1 personal loaf French bread (gluten free if you're gluten free) , 1 medium tomato, sliced , 3 slices fresh ball mozzarella cheese, halved , 3 tablespoons Parsley Pesto",
+    img:
+      "https://img.buzzfeed.com/buzzfeed-static/static/2017-10/10/13/asset/buzzfeed-prod-fastlane-03/sub-buzz-24281-1507655681-1.jpg?output-quality=auto&output-format=auto"
+  },
+  {
+    id: 24,
+    title: "Sweet Potato Noodle Stir-Fry",
+    ingredients:
+      "1 medium onion finely dice ,1 sweet pepper diced,4 cloves garlic minced,2 cups broccoli florets,2 tablespoons olive oil,2 medium sweet potatoes spiralized,2 tablespoons soy sauce,Salt and pepper to taste",
+    img:
+      "https://wholeandheavenlyoven.com/wp-content/uploads/2016/02/Crockpot-Taco-Twice-Baked-Sweet-Potatoes8.jpg"
+  },
+  {
+    id: 25,
+    title: "Ricotta Spinach Calzones",
+    ingredients:
+      "10 ounces frozen chopped spinach, thawed and squeezed dry,8 ounces ricotta cheese,4 ounces mozzarella cheese, shredded,1 ounce Parmesan cheese, grated,1 tablespoon olive oil ,1 large egg, lightly beaten with 2 tablespoons water, plus 1 large egg yolk,1 teaspoon garlic powder,1 1/2 teaspoons minced fresh oregano,1/8 teaspoon red pepper flakes,1 teaspoon salt",
+    img:
+      "https://www.kitschencat.com/wp-content/uploads/2016/09/Spinach-Ricotta-Calzones-4.jpg"
+  },
+  {
+    id: 26,
+    title: "Lentil Tortilla Soup",
+    ingredients:
+      "1 cup diced onion , 1 tsp avocado oil (or olive oil) , 1 bell pepper diced , 1 jalapeno pepper diced ,  2.5 cups vegetable broth (or chicken broth if needed) , 15 oz canned tomato sauce or crushed tomatoes",
+    img:
+      "https://peasandcrayons.com/wp-content/uploads/2017/02/easy-creamy-vegetarian-lentil-tortilla-soup-recipe-peasandcrayons-2x-0112.jpg"
+  },
+  {
+        id: 27,
     title: "Vegan Sriracha Meatballs With Noodles",
     ingredients:
       "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
@@ -182,7 +223,7 @@ const Recipe = [
       "https://purewows3.imgix.net/images/articles/2018_02/Vegan-Sriracha-Meatballs-with-Noodles-and-Grilled-Vegetables-recipe.jpg?auto=format,compress&cs=strip"
   },
   {
-    id:24,
+    id:28,
     title: "the Ultimate Breakfast Sandwich",
     ingredients:
       "Croissant, Bacon, Egg (Soft scramble because it changed your life too, right?), Garlic Butter Tomato Sauce, Guacamole",
@@ -190,7 +231,7 @@ const Recipe = [
       "https://pinchofyum.com/wp-content/uploads/Breakfast-Sandwich-1.jpg"
   },
   {
-    id: 25,
+    id: 29,
     title: "Pad Thai Sauce – Authentic Pad Thai Recipe",
     ingredients:
       "Pad Thai Sauce, 3 tablespoons tamarind juice (paste) concentrate ,¼ cup water, ¼ cup palm sugar ,2 Tbl fish sauce, 2 cloves garlic, minced, Pad Thai Stir-Fry Ingredients, 8 ounces dried rice stick noodles, 5 tablespoons vegetable oil, divided, ½ smallish-medium red onion, thinly sliced, 2 cloves garlic, minced, ½ lb protein (thinly sliced chicken, beef, pork, shrimp, or cubed tofu), 1 egg, 1½ cups mung bean sprouts, divided in half, 1 cup carrots, julienned (match sticks), divided in half, 4 green onions (scallions) cut diagonal in ½ inch segments, ¼ cup cilantro, coarsely chopped, ½ cup toasted peanuts, chopped, Lime wedges",
@@ -198,7 +239,21 @@ const Recipe = [
       "https://savorysweetlife.com/wp-content/uploads/2018/04/pad-thai-sauce/pad-thai-2.jpg"
   },
   {
-    id:26,
+    id: 30,
+    title: "Satay",
+    ingredients:
+      "8-14 skinless chicken thighs, cut into thin strips , 10 (6 inch) wooden skewers, or as needed, soaked in water for 30 minutes , 3 tbsp. fish sauce , 2 stalks of fresh lemongrass, sliced , 1/4 cup fresh lime juice for more flavor ,2 shallots OR 1 small onion, sliced (optional),2 Tbsp. agave nectar",
+    img: "http://www.indofoodstore.com/images/satay4.jpg"
+  },
+  {
+    id: 31,
+    title: "Soto Ayam",
+    ingredients:
+      "1.2 kg chicken , 2 stalks fresh lemongrass, bruised, 7 shallots, chopped,2 ½ tablespoons finely minced ginger,3 tsp. ground turmeric,2 tsp. ground coriander,2 tbsp. vegetable oil,1 tbsp. fresh lime juice (optional) ",
+    img: "http://www.indofoodstore.com/images/soto.jpg"
+  },
+    {
+    id:32,
     title: "Mooncake recipe",
     ingredients:
       "60g golden syrup, 1/4 tsp lye water, 24g vegetable oil, 100g cake flour, 10 salted egg yolk, 220g store-bought lotus paste, Egg wash to brush the mooncake",
@@ -206,7 +261,7 @@ const Recipe = [
       "https://tasteasianfood.com/wp-content/uploads/2019/07/Mooncake-recipe.jpg"
   },
   {
-    id: 27,
+    id: 33,
     title: "Baked Chicken Thighs",
     ingredients:
       "3 pounds bone-in, skin-on chicken thighs, EVOO cooking spray, Kosher salt and black pepper",
