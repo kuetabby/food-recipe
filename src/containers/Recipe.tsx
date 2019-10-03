@@ -204,6 +204,14 @@ const Recipe = [
       "60g golden syrup, 1/4 tsp lye water, 24g vegetable oil, 100g cake flour, 10 salted egg yolk, 220g store-bought lotus paste, Egg wash to brush the mooncake",
     img:
       "https://tasteasianfood.com/wp-content/uploads/2019/07/Mooncake-recipe.jpg"
+  },
+  {
+    id: 27,
+    title: "Baked Chicken Thighs",
+    ingredients:
+      "3 pounds bone-in, skin-on chicken thighs, EVOO cooking spray, Kosher salt and black pepper",
+    img:
+      "https://www.spendwithpennies.com/wp-content/uploads/2019/02/Baked-Chicken-Thighs-SpendWithPennies-26.jpg"
   }
 ];
 
