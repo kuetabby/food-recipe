@@ -213,6 +213,13 @@ const Recipe = [
       "1 cup diced onion , 1 tsp avocado oil (or olive oil) , 1 bell pepper diced , 1 jalapeno pepper diced ,  2.5 cups vegetable broth (or chicken broth if needed) , 15 oz canned tomato sauce or crushed tomatoes",
     img:
       "https://peasandcrayons.com/wp-content/uploads/2017/02/easy-creamy-vegetarian-lentil-tortilla-soup-recipe-peasandcrayons-2x-0112.jpg"
+  },
+  {
+    id: 27,
+    title: "Satay",
+    ingredients:
+      "8-14 skinless chicken thighs, cut into thin strips , 10 (6 inch) wooden skewers, or as needed, soaked in water for 30 minutes , 3 tbsp. fish sauce , 2 stalks of fresh lemongrass, sliced , 1/4 cup fresh lime juice for more flavor ,2 shallots OR 1 small onion, sliced (optional),2 Tbsp. agave nectar",
+    img: "http://www.indofoodstore.com/images/satay4.jpg"
   }
 ];
 
