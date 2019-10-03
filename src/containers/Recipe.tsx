@@ -104,7 +104,7 @@ const Recipe = [
       "http://i0.wp.com/www.foodrepublic.com/wp-content/uploads/2015/08/egghopper.jpg?fit=700%2C467"
   },
   {
-        id: 13,
+    id: 13,
     title: "Beef pho",
     ingredients:
       "1 10-ounce firm block tofu, water drained and excess water removed, 3 spring onions, very finely sliced, 3 garlic cloves, crushed, 1 small red chili, finely chopped, Handful cilantro, chopped, 1 tablespoon Egg Replacement, 4 tablespoons buckwheat flour, 2 tablespoons sesame oil, 1 tablespoon Sriracha sauc, 1 tablespoon coconut oil, for sauteeing.",
@@ -153,26 +153,66 @@ const Recipe = [
   {
     id: 19,
     title: "Flower",
-    ingredients: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-wide-mv-new$"
+    ingredients:
+      "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-wide-mv-new$"
   },
   {
     id: 20,
     title: "Planet",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+    ingredients:
+      "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
   },
   {
     id: 21,
     title: "Obladioblalalal",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+    ingredients:
+      "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
   },
   {
     id: 22,
     title: "Sandy",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+    ingredients:
+      "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
+  {
+    id: 23,
+    title: "Caprese Sandwich with Parsley Pesto",
+    ingredients:
+      "1 personal loaf French bread (gluten free if you're gluten free) , 1 medium tomato, sliced , 3 slices fresh ball mozzarella cheese, halved , 3 tablespoons Parsley Pesto",
+    img:
+      "https://img.buzzfeed.com/buzzfeed-static/static/2017-10/10/13/asset/buzzfeed-prod-fastlane-03/sub-buzz-24281-1507655681-1.jpg?output-quality=auto&output-format=auto"
+  },
+  {
+    id: 24,
+    title: "Sweet Potato Noodle Stir-Fry",
+    ingredients:
+      "1 medium onion finely dice ,1 sweet pepper diced,4 cloves garlic minced,2 cups broccoli florets,2 tablespoons olive oil,2 medium sweet potatoes spiralized,2 tablespoons soy sauce,Salt and pepper to taste",
+    img:
+      "https://wholeandheavenlyoven.com/wp-content/uploads/2016/02/Crockpot-Taco-Twice-Baked-Sweet-Potatoes8.jpg"
+  },
+  {
+    id: 25,
+    title: "Ricotta Spinach Calzones",
+    ingredients:
+      "10 ounces frozen chopped spinach, thawed and squeezed dry,8 ounces ricotta cheese,4 ounces mozzarella cheese, shredded,1 ounce Parmesan cheese, grated,1 tablespoon olive oil ,1 large egg, lightly beaten with 2 tablespoons water, plus 1 large egg yolk,1 teaspoon garlic powder,1 1/2 teaspoons minced fresh oregano,1/8 teaspoon red pepper flakes,1 teaspoon salt",
+    img:
+      "https://www.kitschencat.com/wp-content/uploads/2016/09/Spinach-Ricotta-Calzones-4.jpg"
+  },
+  {
+    id: 26,
+    title: "Lentil Tortilla Soup",
+    ingredients:
+      "1 cup diced onion , 1 tsp avocado oil (or olive oil) , 1 bell pepper diced , 1 jalapeno pepper diced ,  2.5 cups vegetable broth (or chicken broth if needed) , 15 oz canned tomato sauce or crushed tomatoes",
+    img:
+      "https://peasandcrayons.com/wp-content/uploads/2017/02/easy-creamy-vegetarian-lentil-tortilla-soup-recipe-peasandcrayons-2x-0112.jpg"
   }, {
         id: 23,
     title: "Vegan Sriracha Meatballs With Noodles",
