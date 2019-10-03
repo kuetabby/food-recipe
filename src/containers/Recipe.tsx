@@ -260,6 +260,14 @@ const Recipe = [
     img:
       "https://tasteasianfood.com/wp-content/uploads/2019/07/Mooncake-recipe.jpg"
   },
+  {
+    id: 33,
+    title: "Baked Chicken Thighs",
+    ingredients:
+      "3 pounds bone-in, skin-on chicken thighs, EVOO cooking spray, Kosher salt and black pepper",
+    img:
+      "https://www.spendwithpennies.com/wp-content/uploads/2019/02/Baked-Chicken-Thighs-SpendWithPennies-26.jpg"
+  }
 ];
 
 export default Recipe;
