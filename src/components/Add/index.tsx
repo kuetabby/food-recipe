@@ -47,7 +47,7 @@ function App({
                 <InputControl
                   id="title"
                   type="text"
-                  placeholder="Isi Nama Recipe"
+                  placeholder="Submit Name Recipe"
                   value={title}
                   onChange={onChangeState}
                 />
@@ -59,7 +59,7 @@ function App({
                 <AreaControl
                   id="ingredients"
                   type="text"
-                  placeholder="Isi Ingredients"
+                  placeholder="Submit Ingredients"
                   value={ingredients}
                   onChange={onChangeState}
                 />
@@ -71,7 +71,7 @@ function App({
                 <InputControl
                   id="img"
                   type="text"
-                  placeholder="Isi Image URL (Optional)"
+                  placeholder="Image Url (Optional)"
                   value={img}
                   onChange={onChangeState}
                 />
@@ -79,7 +79,7 @@ function App({
             </BoxControl>
             <SubmitButton
               onClick={onCreate}
-              label="submit recipe"
+              label="Submit Here"
               disabled={isDisabled}
             />
           </Row>
