@@ -32,50 +32,63 @@ const Recipe = [
       "http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/05/spicy-black-bean-tacos.jpg?itok=RTBXRL7L"
   },
   {
-    id:4,
+    id: 4,
     title: "Creamy Potato Salad With Bacon",
     ingredients:
-    "3 pounds small red new potatoes (about 24),kosher salt and black pepper, 8 slices bacon, 1/2 cup mayonnaise, 1/4 cup sour cream, 3 tablespoons white wine vinegar, 4 stalks celery, thinly sliced 1/2 cup chopped fresh flat-leaf parsley, 1/4 cup chopped fresh tarragon ",
-    img: "https://www.keyingredient.com/media/91/dc/5be0d6a05b33b89e6e04794a0f73460e3acf.jpg/rh/bacon-ranch-sour-cream-potato-salad.jpg"
+      "3 pounds small red new potatoes (about 24),kosher salt and black pepper, 8 slices bacon, 1/2 cup mayonnaise, 1/4 cup sour cream, 3 tablespoons white wine vinegar, 4 stalks celery, thinly sliced 1/2 cup chopped fresh flat-leaf parsley, 1/4 cup chopped fresh tarragon ",
+    img:
+      "https://www.keyingredient.com/media/91/dc/5be0d6a05b33b89e6e04794a0f73460e3acf.jpg/rh/bacon-ranch-sour-cream-potato-salad.jpg"
   },
   {
     id: 5,
     title: "Chile Corn Fritters",
-    ingredients: "2 quarts canola oil ,1¼ cups medium-grind yellow cornmeal ,1¼ cups (about 5⅜ oz.) all-purpose flour ,2 tablespoons granulated sugar, 1½ teaspoons baking powder ,2 teaspoons kosher salt, divided 2 large eggs, lightly beaten 1 cup whole buttermilk ,2 tablespoons unsalted butter, melted 2 cups fresh yellow corn kernels (4 ears), 2 (4½-oz.) cans hot diced green chiles, drained ¼ cup sliced scallions (from 1 bunch) ",
-    img: "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap"
+    ingredients:
+      "2 quarts canola oil ,1¼ cups medium-grind yellow cornmeal ,1¼ cups (about 5⅜ oz.) all-purpose flour ,2 tablespoons granulated sugar, 1½ teaspoons baking powder ,2 teaspoons kosher salt, divided 2 large eggs, lightly beaten 1 cup whole buttermilk ,2 tablespoons unsalted butter, melted 2 cups fresh yellow corn kernels (4 ears), 2 (4½-oz.) cans hot diced green chiles, drained ¼ cup sliced scallions (from 1 bunch) ",
+    img:
+      "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap"
   },
   {
     id: 6,
     title: "Buffalo Chicken",
-    ingredients: "1½ kg chicken thighs and drumsticks, 180g sea salt flakes, 90g soft dark brown sugar, 2 tbsp chilli flakes,     2 tbsp sweet smoked paprika, 1 tbsp ground cumin, 1 tbsp sea salt flakes, 1 tbsp dark brown sugar",
-    img: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/11/buffalo-wings.jpg?itok=_N9D87_0"
+    ingredients:
+      "1½ kg chicken thighs and drumsticks, 180g sea salt flakes, 90g soft dark brown sugar, 2 tbsp chilli flakes,     2 tbsp sweet smoked paprika, 1 tbsp ground cumin, 1 tbsp sea salt flakes, 1 tbsp dark brown sugar",
+    img:
+      "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/11/buffalo-wings.jpg?itok=_N9D87_0"
   },
   {
     id: 7,
     title: "Texas BBQ medley",
-    ingredients: "1 large chicken, 5 beef short ribs (about 3kg), ribs separated 2kg piece boned pork shoulder, rind removed, Texas barbecue sauce, sliced sweet white onions, Onion and sliced gherkins, to serve",
-    img: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/07/texas-bbq-medley-.jpg?itok=5oSXHSK4"
+    ingredients:
+      "1 large chicken, 5 beef short ribs (about 3kg), ribs separated 2kg piece boned pork shoulder, rind removed, Texas barbecue sauce, sliced sweet white onions, Onion and sliced gherkins, to serve",
+    img:
+      "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/07/texas-bbq-medley-.jpg?itok=5oSXHSK4"
   },
   {
     id: 8,
     title: "S'mores dip",
-    ingredients: "200g milk chocolate, Milk chocolate squares, 2 tbsp full-fat milk, 350g mini marshmallows, 100g digestive biscuits, 100g strawberries, washed and hulled, 100g pineapple, Pineapple, chunks, skewers",
-    img: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/09/smores-dip.jpg?itok=uGd_7cor"
+    ingredients:
+      "200g milk chocolate, Milk chocolate squares, 2 tbsp full-fat milk, 350g mini marshmallows, 100g digestive biscuits, 100g strawberries, washed and hulled, 100g pineapple, Pineapple, chunks, skewers",
+    img:
+      "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/09/smores-dip.jpg?itok=uGd_7cor"
   },
   {
     id: 9,
     title: "Fully loaded Cajun chicken burgers",
-    ingredients: "4 skinless chicken breasts,2 tbsp olive oil,4 rashers smoked bacon, 2 avocados, 4 ciabatta rolls, 4 thin slices of your favourite cheese, 4 small handfuls baby spinach leaves, mayonnaise, to serve (optional)",
-    img: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--17429_11.jpg?itok=7lW0nrDJ"
+    ingredients:
+      "4 skinless chicken breasts,2 tbsp olive oil,4 rashers smoked bacon, 2 avocados, 4 ciabatta rolls, 4 thin slices of your favourite cheese, 4 small handfuls baby spinach leaves, mayonnaise, to serve (optional)",
+    img:
+      "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--17429_11.jpg?itok=7lW0nrDJ"
   },
   {
     id: 10,
     title: "Cheesesteak hot dogs",
-    ingredients: "1 large rib-eye steak, 3 tbsp olive oil, 2 garlic cloves, crushed but whole, 2 green peppers, sliced, 4 hot dog buns, 60g smoked cheddar, sliced, yellow mustard (we used French’s), to serve, 2 tbsp crispy onions",
-    img: "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/07/hot_dogs_steak.jpg?itok=wDwm7Tsf"
+    ingredients:
+      "1 large rib-eye steak, 3 tbsp olive oil, 2 garlic cloves, crushed but whole, 2 green peppers, sliced, 4 hot dog buns, 60g smoked cheddar, sliced, yellow mustard (we used French’s), to serve, 2 tbsp crispy onions",
+    img:
+      "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/07/hot_dogs_steak.jpg?itok=wDwm7Tsf"
   },
   {
-        id: 11,
+    id: 11,
     title: "Causa Rellena",
     ingredients:
       "1 kg potate yellow peruvian\n\nchicken breast\n\nonion\n\nMayonnaise\n\nYellow pepper\n\nAvocado\n\nsalt and pepper",
@@ -83,58 +96,147 @@ const Recipe = [
       "https://images-gmi-pmc.edge-generalmills.com/1fdf2172-1313-49e0-b964-9c2cbb484672.jpg"
   },
   {
-        id: 12,
+    id: 12,
     title: "Hoppers",
     ingredients:
       "2 cups rice flour \n\n1/2 cup granulated sugar\n\n1 1/2 cups coconut milk \n\n3/4 cup water \n\n1 tablespoon dry active yeast \n\n1 1/2 teaspoons warm water \n\n1 teaspoon sugar \n\n3/4 cup cooked basmati rice \n\n1 1/2 cups coconut milk \n\n fresh eggs ",
     img:
       "http://i0.wp.com/www.foodrepublic.com/wp-content/uploads/2015/08/egghopper.jpg?fit=700%2C467"
-  }, 
+  },
   {
-        id: 13,
+    id: 13,
     title: "Beef pho",
     ingredients:
-      "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
+      "1 10-ounce firm block tofu, water drained and excess water removed, 3 spring onions, very finely sliced, 3 garlic cloves, crushed, 1 small red chili, finely chopped, Handful cilantro, chopped, 1 tablespoon Egg Replacement, 4 tablespoons buckwheat flour, 2 tablespoons sesame oil, 1 tablespoon Sriracha sauc, 1 tablespoon coconut oil, for sauteeing.",
     img:
       "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2017/07/beef-pho.jpg"
   },
   {
     id: 14,
-    title: "The Hash Slinging Slesher",
-    ingredients: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-    img: "https://ih0.redbubble.net/image.694542997.9763/mp,840x830,matte,f8f8f8,t-pad,750x1000,f8f8f8.u2.jpg"
+    title: "Tomato Toast with Macadamia Ricotta",
+    ingredients:
+      "1 cup soaked raw macadamia nuts, drained and rinsed, 1 1/2 tablespoons nutritional yeast , 2 teaspoons apple cider vinegar , 1 1/2 teaspoon fresh lemon juice , 2 teaspoons white mellow miso paste , 2 small cloves garlic , 8-10 tablespoons filtered water , 1/4 teaspoon fine grain sea salt",
+    img:
+      "https://images.squarespace-cdn.com/content/v1/51338111e4b021358bcbb0e1/1440263081906-GKTFHSOO5710IMWBKVSK/ke17ZwdGBToddI8pDm48kIzNWfZh9v0nvEHU3WAJ1tF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0ooWhOa5cxQSJsU3rXf8luXAp4RuSF8fCIvAJcvjt_IcZoixb7Wm7IaIkEuLM8C6Ew/tomato+toast+w%2F+macadamia+ricotta%2C+shiso+%2B+black+lava+salt+%7C+dolly+and+oatmeal?format=750w"
   },
   {
     id: 15,
-    title: "Flower",
-    ingredients: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-wide-mv-new$"
+    title: "Avocado Toast and Egg",
+    ingredients:
+      "2 eggs (fried sunny side up) , 2 slices of multi-grain or whole grain bread (toasted) , 1 small avocado , 1 teaspoon lime juice , sea salt + black pepper (to taste) , parsley (optional for topping) Instructions",
+    img:
+      "https://simplegreenmoms.com/wp-content/uploads/2017/03/Skinny-Fried-Egg-and-Avo-Toast.jpg.webp"
   },
   {
     id: 16,
-    title: "Planet",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+    title: "Sun Butter, Banana & Chia Seed Toast",
+    ingredients:
+      "1 Slice 100% Whole Wheat Bread (I used one that was 50 cal. per slice) , 1 Tbsp Sunbutter , 1/2 Medium Banana, Sliced , 1/2 Tsp. Chia Seeds",
+    img:
+      "https://images.squarespace-cdn.com/content/v1/5113fcede4b099bd04eebc8d/1428419347862-I04VJJHX2MP0AE5JDXAY/ke17ZwdGBToddI8pDm48kBUDAxm-FLUF-OJf9moK1kV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UT_TXfTUFcrrnRvtinoH4JYxq5g0UB9t65pVePltZrd1IKYY7Qu0iTZQJ-GJ4dsqLQ/image-asset.jpeg?format=750w"
   },
   {
     id: 17,
-    title: "Obladioblalalal",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+    title: "Healthy Berry Yogurt Smoothie",
+    ingredients:
+      "3/4 cup fresh blueberries , 3/4 cup fresh blackberries , 5.3 ounce package plain Greek yogurt , 1 cup vanilla soy milk , 1 whole banana",
+    img: "https://chefsavvy.com/wp-content/uploads/20141219-DSC_07691.jpg"
   },
   {
     id: 18,
+    title: "Double Berry Breakfast Parfaits",
+    ingredients:
+      "2 cups plain Greek yogurt , 1 ½ cups sliced strawberries , 1 pint fresh blueberries , Honey, optional , Cinnamon, optional",
+    img:
+      "https://foodfitnessfaithblog.files.wordpress.com/2013/07/dsc05698.jpg?w=640&h=413"
+  },
+  {
+    id: 19,
+    title: "Flower",
+    ingredients:
+      "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-wide-mv-new$"
+  },
+  {
+    id: 20,
+    title: "Planet",
+    ingredients:
+      "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
+  {
+    id: 21,
+    title: "Obladioblalalal",
+    ingredients:
+      "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
+  {
+    id: 22,
     title: "Sandy",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+    ingredients:
+      "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
+    img:
+      "https://cdn-ap-ec.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~4b.2f/var/fiam/storage/images/recipes/chilli-corn-fritters/1285033-13-eng-US/Chilli-Corn-Fritters_recipeimage.jpg?yocs=5_&yoloc=ap://s7img.ftdi.com/is/image/ProvideCommerce/PF_19_R205_LAY_SHP_V2?$proflowers-tile-https://scx1.b-cdn.net/csz/news/800/2019/1-nasastessmis.jpg-mv-new$"
+  },
+  {
+    id: 23,
+    title: "Caprese Sandwich with Parsley Pesto",
+    ingredients:
+      "1 personal loaf French bread (gluten free if you're gluten free) , 1 medium tomato, sliced , 3 slices fresh ball mozzarella cheese, halved , 3 tablespoons Parsley Pesto",
+    img:
+      "https://img.buzzfeed.com/buzzfeed-static/static/2017-10/10/13/asset/buzzfeed-prod-fastlane-03/sub-buzz-24281-1507655681-1.jpg?output-quality=auto&output-format=auto"
   },
   {
     id: 24,
-    title: "Konoha",
-    ingredients: "It has srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry't ever since the 1500s, when ansoftware like Aldus PageMaker including versions of Lorem Ipsum",
-    img: "https://vignette.wikia.nocookie.net/naruto/images/a/ae/Desa_Konoha.jpg/revision/latest?cb=20130523045908&path-prefix=id"
+    title: "Sweet Potato Noodle Stir-Fry",
+    ingredients:
+      "1 medium onion finely dice ,1 sweet pepper diced,4 cloves garlic minced,2 cups broccoli florets,2 tablespoons olive oil,2 medium sweet potatoes spiralized,2 tablespoons soy sauce,Salt and pepper to taste",
+    img:
+      "https://wholeandheavenlyoven.com/wp-content/uploads/2016/02/Crockpot-Taco-Twice-Baked-Sweet-Potatoes8.jpg"
   },
-
+  {
+    id: 25,
+    title: "Ricotta Spinach Calzones",
+    ingredients:
+      "10 ounces frozen chopped spinach, thawed and squeezed dry,8 ounces ricotta cheese,4 ounces mozzarella cheese, shredded,1 ounce Parmesan cheese, grated,1 tablespoon olive oil ,1 large egg, lightly beaten with 2 tablespoons water, plus 1 large egg yolk,1 teaspoon garlic powder,1 1/2 teaspoons minced fresh oregano,1/8 teaspoon red pepper flakes,1 teaspoon salt",
+    img:
+      "https://www.kitschencat.com/wp-content/uploads/2016/09/Spinach-Ricotta-Calzones-4.jpg"
+  },
+  {
+    id: 26,
+    title: "Lentil Tortilla Soup",
+    ingredients:
+      "1 cup diced onion , 1 tsp avocado oil (or olive oil) , 1 bell pepper diced , 1 jalapeno pepper diced ,  2.5 cups vegetable broth (or chicken broth if needed) , 15 oz canned tomato sauce or crushed tomatoes",
+    img:
+      "https://peasandcrayons.com/wp-content/uploads/2017/02/easy-creamy-vegetarian-lentil-tortilla-soup-recipe-peasandcrayons-2x-0112.jpg"
+  }, {
+        id: 27,
+    title: "Vegan Sriracha Meatballs With Noodles",
+    ingredients:
+      "1l low salt beef stock, 1 large onion - peeled and cut into quarters, large thumb-sized piece ginger - peeled, 1 cinnamon stick, 2 star anise, 1 tsp coriander seeds, ½ tsp cloves, 230g sirloin steak, 1 tsp palm sugar, 1 tbsp fish sauce, 1 ½ tbsp soy sauce, 200g flat rice noodles, 2 spring onions - shredded, 1 small red (bird's-eye) chilli - finely sliced, handful each of Thai basil and coriander, 1 lime - cut into wedges",
+    img:
+      "https://purewows3.imgix.net/images/articles/2018_02/Vegan-Sriracha-Meatballs-with-Noodles-and-Grilled-Vegetables-recipe.jpg?auto=format,compress&cs=strip"
+  },
+  {
+    id:28,
+    title: "the Ultimate Breakfast Sandwich",
+    ingredients:
+      "Croissant, Bacon, Egg (Soft scramble because it changed your life too, right?), Garlic Butter Tomato Sauce, Guacamole",
+    img:
+      "https://pinchofyum.com/wp-content/uploads/Breakfast-Sandwich-1.jpg"
+  },
+  {
+    id: 29,
+    title: "Pad Thai Sauce – Authentic Pad Thai Recipe",
+    ingredients:
+      "Pad Thai Sauce, 3 tablespoons tamarind juice (paste) concentrate ,¼ cup water, ¼ cup palm sugar ,2 Tbl fish sauce, 2 cloves garlic, minced, Pad Thai Stir-Fry Ingredients, 8 ounces dried rice stick noodles, 5 tablespoons vegetable oil, divided, ½ smallish-medium red onion, thinly sliced, 2 cloves garlic, minced, ½ lb protein (thinly sliced chicken, beef, pork, shrimp, or cubed tofu), 1 egg, 1½ cups mung bean sprouts, divided in half, 1 cup carrots, julienned (match sticks), divided in half, 4 green onions (scallions) cut diagonal in ½ inch segments, ¼ cup cilantro, coarsely chopped, ½ cup toasted peanuts, chopped, Lime wedges",
+    img:
+      "https://savorysweetlife.com/wp-content/uploads/2018/04/pad-thai-sauce/pad-thai-2.jpg"
+  }
 ];
 
 export default Recipe;
