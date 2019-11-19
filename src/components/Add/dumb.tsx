@@ -6,6 +6,7 @@ interface ButtonProps {
   label?: string;
   id?: string;
   disabled?: boolean;
+  loading?: boolean;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -13,7 +14,8 @@ export const Button: React.FC<ButtonProps> = ({
   onClick,
   id,
   label,
-  disabled
+  disabled,
+  loading
 }) => (
   <button
     className={className}
@@ -22,7 +24,8 @@ export const Button: React.FC<ButtonProps> = ({
     disabled={disabled}
     aria-label={label}
   >
-    Add Recipe
+    {loading && "loading..."}
+    {!loading && "Add Recipe"}
   </button>
 );
 

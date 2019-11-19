@@ -1,4 +1,6 @@
-import React from "react";
+import React, { Fragment } from "react";
+
+import { Modal } from "antd";
 
 import {
   AddButton,
@@ -11,7 +13,7 @@ import {
   AreaControl
 } from "./styles";
 
-import { Modal, ModalContent, ModalClose } from "styled/modal-styles";
+import { ModalContent } from "styled/modal-styles";
 
 interface AddProps {
   title: string;
@@ -19,6 +21,7 @@ interface AddProps {
   img: string;
   visible: boolean;
   isDisabled: boolean;
+  isLoadingRecipe: boolean;
   onChangeVisible: () => void;
   onChangeState: (e: React.SyntheticEvent) => void;
   onCreate: () => void;
@@ -30,16 +33,16 @@ function App({
   img,
   visible,
   isDisabled,
+  isLoadingRecipe,
   onChangeVisible,
   onChangeState,
-  onCreate,
+  onCreate
 }: AddProps) {
   return (
-    <>
+    <Fragment>
       <AddButton onClick={onChangeVisible} />
-      <Modal style={{ display: visible ? `block` : `none` }}>
+      <Modal visible={visible} onCancel={onChangeVisible} footer={null}>
         <ModalContent>
-          <ModalClose onClick={onChangeVisible}>&times;</ModalClose>
           <Row>
             <BoxControl>
               <GroupControl>
@@ -71,7 +74,7 @@ function App({
                 <InputControl
                   id="img"
                   type="text"
-                  placeholder="Image Url (Optional)"
+                  placeholder="Submit Image Url"
                   value={img}
                   onChange={onChangeState}
                 />
@@ -79,13 +82,14 @@ function App({
             </BoxControl>
             <SubmitButton
               onClick={onCreate}
-              label="Submit Here"
+              label="Submit"
+              loading={isLoadingRecipe}
               disabled={isDisabled}
             />
           </Row>
         </ModalContent>
       </Modal>
-    </>
+    </Fragment>
   );
 }
 

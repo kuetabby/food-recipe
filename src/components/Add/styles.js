@@ -21,10 +21,13 @@ export const AddButton = styled(Button)`
 `;
 
 export const SubmitButton = styled(Button)`
-  padding: 0 2em;
-  margin-left: 1em;
-  height: 2em;
+  padding: 0 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 10em;
+  height: 3em;
   border: 1px solid #009688;
+  border-radius: 15px;
   background-color: #00bfa5;
 
   cursor: pointer;
