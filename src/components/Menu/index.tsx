@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 import { Row } from "./styles";
 
 import Card from "./Card";
+import Spinner from "custom/Spinner";
 
 interface DataParam {
   id: number;
@@ -12,40 +13,29 @@ interface DataParam {
 }
 
 interface MenuProps {
-  data: DataParam[];
-  visible: boolean;
-  isRead: boolean;
+  data_recipe: DataParam[];
+  isLoadingRecipe: boolean;
   onHandleVisible: () => void;
-  onHandleRead: () => void;
-  onDelete: (id: number) => void;
 }
 
-function App({
-  data,
-  visible,
-  isRead,
-  onHandleVisible,
-  onHandleRead,
-  onDelete
-}: MenuProps) {
+function App({ data_recipe, isLoadingRecipe, onHandleVisible }: MenuProps) {
   return (
     <Fragment>
-      <Row>
-        {data.map(val => (
-          <Fragment key={val.id}>
-            <Card
-              id={val.id}
-              ingredients={val.ingredients}
-              isRead={isRead}
-              img={val.img}
-              title={val.title}
-              visible={visible}
-              onHandleVisible={onHandleVisible}
-              onHandleRead={onHandleRead}
-              onDelete={onDelete}
-            />
-          </Fragment>
-        ))}
+      <Row align="center">
+        {isLoadingRecipe ? (
+          <Spinner />
+        ) : (
+          data_recipe &&
+          data_recipe.map(val => (
+            <Fragment key={val.id}>
+              <Card
+                img={val.img}
+                title={val.title}
+                onHandleVisible={onHandleVisible}
+              />
+            </Fragment>
+          ))
+        )}
       </Row>
     </Fragment>
   );

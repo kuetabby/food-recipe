@@ -12,6 +12,7 @@ export const Row = styled.div`
 
 export const Title = styled.div`
   background-color: #009688;
+  width: auto;
   height: 100%;
   color: white;
   padding: 2em;
@@ -31,9 +32,15 @@ export const CardWrapper = styled.div`
   margin: 1%;
   background-color: #009688;
   color: white;
-  flex: 0 0 22%;
-  max-width: 22%;
-  height: 100%;
+  flex: 1 0 30%;
+  max-width: 30%;
+  max-height: 100%;
+  /* height: 100%; */
+`;
+
+export const CardImg = styled.img`
+  width: 100%;
+  height: 40vh;
 `;
 
 export const CardButton = styled(Button)`
@@ -41,6 +48,8 @@ export const CardButton = styled(Button)`
   background-color: ${props => (props.color ? props.color : `#009688`)};
   color: white;
   text-transform: uppercase;
+  text-align: center;
+  font-size: calc(7px + 1vmax);
   padding: 1em;
   border: none;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -52,7 +61,8 @@ export const CardButton = styled(Button)`
   }
 
   @media screen and (max-width: 700px) {
-    width: 50%;
+    width: 100%;
+    height: 10%;
   }
 `;
 
@@ -76,10 +86,10 @@ export const InputControl = styled(Input)`
   text-align: center;
 `;
 
-export const TitleControl = styled(Input)`
+export const TitleControl = styled.p`
   background-color: #009688;
+
   height: 100%;
-  color: white;
   padding: 1em;
   font-weight: bold;
   font-size: 1.5em;
@@ -91,7 +101,10 @@ export const ParagraphControl = styled.p`
   font-weight: 500;
   height: 10%;
   width: 100%;
-  font-size: 1em;
+  font-size: calc(7px + 1vmax);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   border: none;
   outline: 0;
 `;
