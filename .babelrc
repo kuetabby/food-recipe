@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "pure": true
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css",
+        "libraryDirectory": "es"
+      },
+      "ant"
+    ]
+  ]
+}
