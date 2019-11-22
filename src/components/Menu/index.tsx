@@ -1,9 +1,10 @@
 import React, { Fragment } from "react";
 
 import { Row } from "./styles";
-
-import Card from "./Card";
 import Spinner from "custom/Spinner";
+
+import Card from "../Card";
+import Detail from "../Detail";
 
 interface DataParam {
   id: number;
@@ -14,11 +15,25 @@ interface DataParam {
 
 interface MenuProps {
   data_recipe: DataParam[];
+  id_detail: number;
+  visible_detail: boolean;
   isLoadingRecipe: boolean;
-  onHandleVisible: () => void;
+  isLoadingRecipeDelete: boolean;
+  handleVisibleDetailOpen: (e: any) => void;
+  handleVisibleDetailClose: () => void;
+  onDelete: (e: any) => void;
 }
 
-function App({ data_recipe, isLoadingRecipe, onHandleVisible }: MenuProps) {
+function MenuComponent({
+  data_recipe,
+  visible_detail,
+  id_detail,
+  isLoadingRecipe,
+  isLoadingRecipeDelete,
+  handleVisibleDetailOpen,
+  handleVisibleDetailClose,
+  onDelete
+}: MenuProps) {
   return (
     <Fragment>
       <Row align="center">
@@ -26,19 +41,29 @@ function App({ data_recipe, isLoadingRecipe, onHandleVisible }: MenuProps) {
           <Spinner />
         ) : (
           data_recipe &&
-          data_recipe.map(val => (
-            <Fragment key={val.id}>
+          data_recipe.map(({ id, img, title }) => (
+            <Fragment key={id}>
               <Card
-                img={val.img}
-                title={val.title}
-                onHandleVisible={onHandleVisible}
+                img={img}
+                id={id}
+                title={title}
+                handleVisibleDetailOpen={handleVisibleDetailOpen}
               />
             </Fragment>
           ))
         )}
       </Row>
+      {visible_detail ? (
+        <Detail
+          id={id_detail}
+          isLoadingRecipeDelete={isLoadingRecipeDelete}
+          visible={visible_detail}
+          onCancel={handleVisibleDetailClose}
+          onDelete={onDelete}
+        />
+      ) : null}
     </Fragment>
   );
 }
 
-export default App;
+export default MenuComponent;
