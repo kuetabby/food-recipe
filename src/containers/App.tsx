@@ -31,32 +31,36 @@ function App() {
 
   const [data_recipe, setDataRecipe] = useState<DataDefinition[]>([]);
 
-  const [visibleAdd, setVisibleAdd] = useState<boolean>(false);
-  const [visibleUpdate, setVisibleUpdate] = useState<boolean>(false);
+  const [visible_add, setVisibleAdd] = useState<boolean>(false);
+  const [visible_detail, setVisibleDetail] = useState<boolean>(false);
 
-  const [isDisabled, setDisabled] = useState<boolean>(false);
-  const [isRead, setRead] = useState<boolean>(true);
+  const [isDisabled_add, setDisabled_add] = useState<boolean>(false);
+  const [isDisabled_update, setDisabled_update] = useState<boolean>(false);
+
+  const [id_detail, setIdDetail] = useState<number>(0);
 
   const [isLoadingRecipe, setLoadingRecipe] = useState<boolean>(false);
   const [isLoadingRecipeAdd, setLoadingRecipeAdd] = useState<boolean>(false);
+  const [isLoadingRecipeUpdate, setLoadingRecipeUpdate] = useState<boolean>(
+    false
+  );
+  const [isLoadingRecipeDelete, setLoadingRecipeDelete] = useState<boolean>(
+    false
+  );
 
-  const DataJSON = JSON.stringify({
-    title,
-    ingredients,
-    img
-  });
+  // const [isRerender, setRerender] = useState<number>(0);
 
   useEffect(() => {
     if (!title) {
-      return setDisabled(true);
+      return setDisabled_add(true);
     }
     if (!ingredients) {
-      return setDisabled(true);
+      return setDisabled_add(true);
     }
     if (!img) {
-      return setDisabled(true);
+      return setDisabled_add(true);
     }
-    return setDisabled(false);
+    return setDisabled_add(false);
   }, [title, ingredients, img]);
 
   useEffect(() => {
@@ -88,18 +92,27 @@ function App() {
   };
 
   const handleVisibleAdd = () => {
-    setVisibleAdd(!visibleAdd);
+    setVisibleAdd(!visible_add);
   };
 
-  const handleVisibleUpdate = () => {
-    setVisibleUpdate(!visibleUpdate);
+  const handleVisibleDetailOpen = (e: any) => {
+    const { id } = e.target;
+    setVisibleDetail(!visible_detail);
+    setIdDetail(id);
   };
 
-  const handleReadOnly = () => {
-    setRead(!isRead);
+  const handleVisibleDetailClose = () => {
+    setVisibleDetail(false);
+    setIdDetail(0);
   };
 
   const createRecipe = async () => {
+    const DataJSON: string = JSON.stringify({
+      title,
+      ingredients,
+      img
+    });
+
     setLoadingRecipeAdd(true);
     try {
       const posting = await fetch(
@@ -117,29 +130,45 @@ function App() {
       setLoadingRecipeAdd(false);
       setDataRecipe(result);
       setState({ ...initialState });
-      setVisibleAdd(!visibleAdd);
+      setVisibleAdd(!visible_add);
       return result;
     } catch (error) {
       setLoadingRecipeAdd(false);
     }
   };
 
-  // const deleteRecipe = (id: number) => {
-  //   setVisibleUpdate(!visibleUpdate);
-  //   setDataRecipe(data.filter(value => value.id !== id));
-  // };
+  const deleteRecipe = async (id_recipe: number) => {
+    setLoadingRecipeDelete(true);
+    try {
+      const posting = await fetch(
+        `${process.env.REACT_APP_SERVER_URL}/api/foods/recipe/${id_recipe}`,
+        {
+          method: "delete"
+        }
+      );
+      const json = await posting.json();
+      const result = await json.data;
+      setLoadingRecipeDelete(false);
+      setDataRecipe(result);
+      // setRerender(Date.now());
+      handleVisibleDetailClose();
+      return result;
+    } catch (error) {
+      setLoadingRecipeDelete(false);
+    }
+  };
 
   return (
-    <div style={{ height: "100vh", margin: "1em" }}>
+    <div style={{ height: "100%", margin: "1em" }}>
       <NavWrapper>
         <NavBar>
-          <h1>Food Recipe</h1>
+          <h1 style={{ color: "white" }}>Food Recipe</h1>
           <Add
             title={title}
             ingredients={ingredients}
             img={img}
-            visible={visibleAdd}
-            isDisabled={isDisabled}
+            visible={visible_add}
+            isDisabled={isDisabled_add}
             isLoadingRecipe={isLoadingRecipeAdd}
             onChangeVisible={handleVisibleAdd}
             onChangeState={handleChangeState}
@@ -149,8 +178,13 @@ function App() {
       </NavWrapper>
       <Menu
         data_recipe={data_recipe}
+        visible_detail={visible_detail}
+        id_detail={id_detail}
         isLoadingRecipe={isLoadingRecipe}
-        onHandleVisible={handleVisibleUpdate}
+        isLoadingRecipeDelete={isLoadingRecipeDelete}
+        handleVisibleDetailOpen={handleVisibleDetailOpen}
+        handleVisibleDetailClose={handleVisibleDetailClose}
+        onDelete={deleteRecipe}
       />
     </div>
   );
