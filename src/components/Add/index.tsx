@@ -27,7 +27,7 @@ interface AddProps {
   onCreate: () => void;
 }
 
-function App({
+function AddComponent({
   title,
   ingredients,
   img,
@@ -93,4 +93,4 @@ function App({
   );
 }
 
-export default App;
+export default AddComponent;

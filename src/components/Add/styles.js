@@ -8,7 +8,7 @@ export const AddButton = styled(Button)`
   cursor: pointer;
   height: 3em;
   line-height: 1em;
-  color: black;
+  color: white;
   border-radius: 2px;
   border: 1px solid #009688;
   text-transform: uppercase;
@@ -28,6 +28,8 @@ export const SubmitButton = styled(Button)`
   height: 3em;
   border: 1px solid #009688;
   border-radius: 15px;
+  font-weight: 500;
+  color: white;
   background-color: #00bfa5;
 
   cursor: pointer;
