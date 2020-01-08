@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, SyntheticEvent } from "react";
+import { wrap } from "comlink";
 
 import { NavWrapper, NavBar } from "styled/nav-styles";
 
@@ -35,20 +36,14 @@ function App() {
   const [visible_detail, setVisibleDetail] = useState<boolean>(false);
 
   const [isDisabled_add, setDisabled_add] = useState<boolean>(false);
-  const [isDisabled_update, setDisabled_update] = useState<boolean>(false);
 
   const [id_detail, setIdDetail] = useState<number>(0);
 
   const [isLoadingRecipe, setLoadingRecipe] = useState<boolean>(false);
   const [isLoadingRecipeAdd, setLoadingRecipeAdd] = useState<boolean>(false);
-  const [isLoadingRecipeUpdate, setLoadingRecipeUpdate] = useState<boolean>(
-    false
-  );
   const [isLoadingRecipeDelete, setLoadingRecipeDelete] = useState<boolean>(
     false
   );
-
-  // const [isRerender, setRerender] = useState<number>(0);
 
   useEffect(() => {
     if (!title) {
@@ -65,29 +60,13 @@ function App() {
 
   useEffect(() => {
     const timeOut = setTimeout(() => {
-      fetchData();
-    }, 100);
+      fetchRecipe();
+    }, 50);
     return () => clearTimeout(timeOut);
   }, []);
 
-  const fetchData = async () => {
-    setLoadingRecipe(true);
-    try {
-      const fetching = await fetch(
-        `${process.env.REACT_APP_SERVER_URL}/api/foods/recipe`
-      );
-      const json = await fetching.json();
-      const result = await json.data;
-      setDataRecipe(result);
-      setLoadingRecipe(false);
-      return result;
-    } catch (error) {
-      setLoadingRecipe(false);
-    }
-  };
-
-  const handleChangeState = (e: any) => {
-    const { id, value } = e.target;
+  const handleChangeState = (e: React.SyntheticEvent) => {
+    const { id, value } = e.target as HTMLInputElement;
     setState(prevState => ({ ...prevState, [id]: value }));
   };
 
@@ -95,15 +74,29 @@ function App() {
     setVisibleAdd(!visible_add);
   };
 
-  const handleVisibleDetailOpen = (e: any) => {
-    const { id } = e.target;
+  const handleVisibleDetailOpen = (e: React.SyntheticEvent) => {
+    const { id } = e.target as HTMLInputElement;
+    const numericId = Number(id);
     setVisibleDetail(!visible_detail);
-    setIdDetail(id);
+    setIdDetail(numericId);
   };
 
   const handleVisibleDetailClose = () => {
     setVisibleDetail(false);
     setIdDetail(0);
+  };
+
+  const fetchRecipe = async () => {
+    setLoadingRecipe(true);
+    try {
+      const worker = new Worker("worker.js");
+      const service: any = wrap(worker);
+      const result = await service(`${process.env.REACT_APP_SERVER_URL}`);
+      setDataRecipe(result);
+      setLoadingRecipe(false);
+    } catch (error) {
+      setLoadingRecipe(false);
+    }
   };
 
   const createRecipe = async () => {
