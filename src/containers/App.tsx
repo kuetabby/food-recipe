@@ -1,4 +1,4 @@
-import React, { useState, useEffect, SyntheticEvent } from "react";
+import React, { useState, useEffect } from "react";
 import { wrap } from "comlink";
 
 import { NavWrapper, NavBar } from "styled/nav-styles";
@@ -65,6 +65,12 @@ function App() {
     return () => clearTimeout(timeOut);
   }, []);
 
+  const DataJSON: string = JSON.stringify({
+    title,
+    ingredients,
+    img
+  });
+
   const handleChangeState = (e: React.SyntheticEvent) => {
     const { id, value } = e.target as HTMLInputElement;
     setState(prevState => ({ ...prevState, [id]: value }));
@@ -91,7 +97,9 @@ function App() {
     try {
       const worker = new Worker("worker.js");
       const service: any = wrap(worker);
-      const result = await service(`${process.env.REACT_APP_SERVER_URL}`);
+      const result = await service(
+        `${process.env.REACT_APP_SERVER_URL}/api/foods/recipe`
+      );
       setDataRecipe(result);
       setLoadingRecipe(false);
     } catch (error) {
@@ -100,12 +108,6 @@ function App() {
   };
 
   const createRecipe = async () => {
-    const DataJSON: string = JSON.stringify({
-      title,
-      ingredients,
-      img
-    });
-
     setLoadingRecipeAdd(true);
     try {
       const posting = await fetch(
@@ -143,7 +145,6 @@ function App() {
       const result = await json.data;
       setLoadingRecipeDelete(false);
       setDataRecipe(result);
-      // setRerender(Date.now());
       handleVisibleDetailClose();
       return result;
     } catch (error) {
