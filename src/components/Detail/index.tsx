@@ -1,5 +1,5 @@
 import React, { useState, useEffect, Fragment } from "react";
-
+import { wrap } from "comlink";
 import { Modal } from "antd";
 import {
   CardButton,
@@ -57,23 +57,30 @@ const DetailComponent: React.FC<ModalProps> = ({
     return () => clearTimeout(timeOut);
   }, [id]);
 
+  const DataJSON: string = JSON.stringify({
+    ingredients,
+    img
+  });
+
   const handleDisabled = () => {
     setDisabled(!isDisabled);
   };
 
-  const handleStateChange = (e: any) => {
-    const { id, value } = e.target;
+  const handleStateChange = (e: React.SyntheticEvent) => {
+    const { id, value } = e.target as HTMLInputElement;
     setState(prevState => ({ ...prevState, [id]: value }));
   };
 
   const fetchRecipe = async (id_recipe: number) => {
     setLoadingRecipe(true);
     try {
-      const fetching = await fetch(
+      const worker = new Worker("worker.js");
+      const service: any = wrap(worker);
+      const result = await service(
         `${process.env.REACT_APP_SERVER_URL}/api/foods/recipe/${id_recipe}`
       );
-      const json = await fetching.json();
-      const { title, ingredients, img } = await json.data;
+      const { title, ingredients, img } = result;
+
       setLoadingRecipe(false);
       setState({
         title,
@@ -86,10 +93,6 @@ const DetailComponent: React.FC<ModalProps> = ({
     }
   };
 
-  const DataJSON = JSON.stringify({
-    ingredients,
-    img
-  });
   const updateRecipe = async () => {
     setDisabled(true);
     setLoadingRecipe(true);
